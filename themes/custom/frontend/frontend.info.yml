@@ -1,0 +1,12 @@
+name: Front end learning
+type: theme
+description: 'A simple custom theme'
+core_version_requirement: ^8 || ^9  
+base theme: classy
+regions:
+  header: Header
+  content: Content
+  sidebar_lef: 'Sidebar Left'
+  footer: Footer
+libraries:
+  - frontend/global
