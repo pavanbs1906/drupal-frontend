@@ -1,0 +1,66 @@
+/**
+*
+* Global
+*
+**/
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+::selection {
+  background: $blue;
+  color: $white;
+}
+
+.darkcyan {
+  background-color: $darkcyan;
+}
+.gainsboro {
+  background-color: $gainsboro;
+}
+.honeydew {
+  background-color: $honeydew;
+}
+.darkseagreen {
+  background-color: $darkseagreen;
+}
+.plum {
+  background-color: $plum;
+}
+.table-color {
+  background-color: $black;
+  color: $white;
+}
+.menu-color {
+  background-color: $black;
+}
+.link-color {
+  color : $white;
+}
+.antiquewhite {
+  background-color: $antiquewhite;
+}
+.btn-primary {
+  background-color: $darkblue;
+  color: $white;
+}
+.btn {
+  width: 75px;
+  height: 30px;
+  padding: 6px;
+  margin-left: 22px;
+  cursor: pointer;
+}
+p {
+  line-height: 1.6;
+}

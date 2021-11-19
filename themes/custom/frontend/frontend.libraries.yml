@@ -2,7 +2,7 @@ global:
   version: 1.0
   css:
     theme:
-      css/main.css: {}
+      styles/main.css: {}
   js:
     js/main.js: {}
 
