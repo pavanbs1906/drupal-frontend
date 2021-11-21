@@ -1,12 +1,12 @@
-.header {
-  margin: 20px;
-  padding: 12px;
-}
 .display-type-1 {
   display: flex;
   flex-direction: row;
 }
-.logo {
-  width: 50%;
-  padding-left: 15px;
+.header {
+  margin: 20px;
+  padding: 12px;
+  .logo {
+    width: 50%;
+    padding-left: 15px;
+  }
 }

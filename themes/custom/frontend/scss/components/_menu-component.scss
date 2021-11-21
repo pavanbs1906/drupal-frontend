@@ -1,20 +1,19 @@
-.menu-list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-.items {
-  width: 150px;
-  height: 50px;
-  padding-top: 17px;
-  margin-right: 10px;
-  text-align: center;
-}
-
-.items:hover {
-  text-decoration: underline;
-  background-color: red;
-}
-.menu-width {
+.menus {
   width: 80%;
+  .menu-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    .items {
+      width: 150px;
+      height: 50px;
+      padding-top: 17px;
+      margin-right: 10px;
+      text-align: center;
+      &:hover {
+        text-decoration: underline;
+        background-color: red;
+      }
+    }
+  }
 }
