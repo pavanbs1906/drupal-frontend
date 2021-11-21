@@ -1,23 +1,8 @@
-/**
-*
-* Imports
-*
-**/
-
-// Utils
 @import "utils/variables";
-
-
-// Base
 @import "base/global";
-
-// Components
-@import "components/links";
-
-
-//  Layout
 @import "layout/header";
+@import "components/menu-component";
+@import "components/links";
+@import "layout/content";
 @import "layout/footer";
 
-
-// Modules
