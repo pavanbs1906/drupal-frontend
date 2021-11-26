@@ -42,64 +42,10 @@
  * @see html.html.twig
  */
 #}
-{% include '@frontend/layout/header.html.twig' %}
+{% include '@frontend/section/header.html.twig' %}
 <div class="layout-container">
    <div class = "content display-type-1">
-      <div class = "left-col bg-color-honeydew col-20">
-         <div class="menus display-type-2">
-            <nav class="menus-wrapper">
-               <ul class= "menu-list">
-                  <li class = "items bg-color-black">
-                     <a href="/" class= "link font-color-white">Home</a>
-                  </li>
-                  <li class = "items bg-color-black">
-                     <a href="/table"class= "link font-color-white" >Search</a>
-                  </li>
-                  <li class = "items bg-color-black">
-                     <a href="/contact" class= "link font-color-white">About</a>
-                  </li>
-                  <li class = "items bg-color-black">
-                     <a href="/" class= "link font-color-white">Company</a>
-                  </li>
-               </ul>
-            </nav>
-         </div>
-         <div class="left-content display-type-2">
-           <div class = "left-image">
-              <img src="themes/custom/frontend/images/road.jpg" alt="logo image" width="100%" height="70px">
-           </div>
-           <div class = "description">
-             <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32</p>
-           </div>
-
-         </div>
-      </div>
-      <div class = "right-col bg-color-gainsboro col-80">
-        <div class = "title" >
-          <p>Why do we use it?</p>
-        </div>
-         <div class = "description content-top" >
-         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-         
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-    
-        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-         </div>
-         <div class = "row display-type-1">
-           <div class = "col description bg-color-antiquewhite">
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ultricies turpis, at cursus augue. Quisque ex diam, faucibus non euismod eu, finibus elementum est. Curabitur lorem libero, euismod a justo a, luctus rutrum risus. Ut tempor tristique dui sed sagittis. Cras sodales vitae lorem et aliquet. Nullam sed elit arcu. Vestibulum et justo vel orci varius ornare interdum sit amet erat.</p>
-           </div>
-           <div class = "col description bg-color-darkseagreen">
-           <p>Proin quam nisi, lacinia in nunc ac, lobortis laoreet urna. Proin placerat libero vitae tristique faucibus. Curabitur laoreet rhoncus felis, a elementum diam placerat nec. Nam interdum facilisis nisl in accumsan. Sed a facilisis nisi. Morbi cursus nec neque et mollis. Morbi in eros ac elit sollicitudin iaculis sed sed sapien. Proin venenatis fermentum est eget egestas. Sed vel libero sit amet eros ultricies porta. Suspendisse sed ligula lectus.   </p>
-           </div>
-           <div class = "col description bg-color-antiquewhite">
-           <p>Sed posuere quam non justo tincidunt, quis congue odio cursus. Proin tempus sapien ac magna varius, et semper tortor varius. Cras vel urna convallis lacus pellentesque dapibus. In hac habitasse platea dictumst. Donec tempor malesuada lacus, ac viverra diam rhoncus in. Quisque porta odio eu eleifend sollicitudin. Suspendisse tempor congue eros, vel volutpat magna tristique at.</p>
-           </div>
-           <div class = "col description bg-color-darkseagreen">
-           <p>Integer vestibulum enim nec dictum suscipit. Etiam ac ligula nec tellus sollicitudin efficitur. Praesent a blandit ex, nec ornare felis. Morbi nisl tortor, pretium dictum risus ac, lacinia lacinia mauris. Nunc sed congue lorem. Donec volutpat nisl eu nulla euismod, ut feugiat dolor placerat. Etiam vel magna tempus, consectetur lectus non, facilisis orci. Fusce sed lobortis nibh. Ut consectetur, justo faucibus hendrerit rutrum, ligula diam rhoncus lectus, sit amet porta ex risus non tellus.</p>
-           </div>
-         </div>
-      </div>
+     {% include '@frontend/section/content.html.twig' %}
    </div>
 </div>
-{% include '@frontend/layout/footer.html.twig' %}
+{% include '@frontend/section/footer.html.twig' %}
