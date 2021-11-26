@@ -1,0 +1,27 @@
+@import "../utils/variables";
+
+.btn {
+  width: 75px;
+  height: 30px;
+  padding: 6px;
+  margin-left: 22px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: $white;
+  background-color: $primary_color;
+  border-radius: 3px;
+}
+
+.btn-warning {
+  color: $white;
+  background-color: $warning_color;
+  border-radius: 3px;
+}
+
+.btn-success {
+  color: $white;
+  background-color: $success_color;
+  border-radius: 3px;
+}
