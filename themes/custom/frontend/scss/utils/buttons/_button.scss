@@ -9,19 +9,16 @@
 }
 
 .btn-primary {
-  color: $white;
-  background-color: $primary_color;
+  @include colorsType(#008b8b, "both", $primary_color, $white);
   border-radius: 3px;
 }
 
 .btn-warning {
-  color: $white;
-  background-color: $warning_color;
+  @include colorsType(#008b8b, "both", $warning_color, $white);
   border-radius: 3px;
 }
 
 .btn-success {
-  color: $white;
-  background-color: $success_color;
+  @include colorsType(#008b8b, "both", $success_color, $white);
   border-radius: 3px;
 }

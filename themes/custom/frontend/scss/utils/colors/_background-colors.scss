@@ -1,27 +1,27 @@
 // Background colors css.
 @import "../variables/variables";
 .bg-color-darkcyan {
-  background-color: #008b8b;
+  @include colorsType(#008b8b, "backgroundcolor");
 }
 .bg-color-gainsboro {
-  background-color: #dcdcdc;
+  @include colorsType(#dcdcdc, "backgroundcolor");
 }
 .bg-color-honeydew {
-  background-color: #f0fff0;
+  @include colorsType(#f0fff0, "backgroundcolor");
 }
 .bg-color-darkseagreen {
-  background-color: #8fbc8f;
+  @include colorsType(#8fbc8f, "backgroundcolor");
 }
 .bg-color-plum {
-  background-color: #673147;
+  @include colorsType(#673147, "backgroundcolor");
 }
 .bg-color-black {
-  background-color: #000000;
+  @include colorsType(#000000, "backgroundcolor");
 }
 .bg-color-white {
-  background-color: #FFFFFF;
+  @include colorsType(#FFFFFF, "backgroundcolor");
 }
 .bg-color-antiquewhite {
-  background-color: #faebd7;
+  @include colorsType(#faebd7, "backgroundcolor");
 }
 

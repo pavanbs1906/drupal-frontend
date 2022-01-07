@@ -1,27 +1,27 @@
 // Font colors css.
 @import "../variables/variables";
 .font-color-darkcyan {
-  color: #008b8b;
+  @include colorsType(#008b8b, "fontcolor");
 }
 .font-color-gainsboro {
-  color: #dcdcdc;
+  @include colorsType(#dcdcdc, "fontcolor");
 }
 .font-color-honeydew {
-  color: #f0fff0;
+  @include colorsType(#f0fff0, "fontcolor");
 }
 .font-color-darkseagreen {
-  color: #8fbc8f;
+  @include colorsType(#8fbc8f, "fontcolor");
 }
 .font-color-plum {
-  color: #673147;
+  @include colorsType(#673147, "fontcolor");
 }
 .font-color-black {
-  color: #000000;
+  @include colorsType(#000000, "fontcolor");
 }
 .font-color-white {
-  color: #FFFFFF;
+  @include colorsType(#FFFFFF, "fontcolor");
 }
 .font-color-antiquewhite {
-  color: #faebd7;
+  @include colorsType(#faebd7, "fontcolor");
 }
 

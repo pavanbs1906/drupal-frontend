@@ -13,3 +13,16 @@
   }
   @return $value;
 }
+
+@mixin colorsType($hex_code, $color_type, $bg_color:"", $font_color:"") {
+  @if $color_type == "fontcolor" {
+    color: $hex_code;
+  } 
+  @else if  $color_type == "backgroundcolor" {
+    background-color: $hex_code;
+  }
+  @else if  $color_type == "both" {
+    color: $font_color;
+    background-color: $bg_color;
+  }
+}
