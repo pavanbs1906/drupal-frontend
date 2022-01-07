@@ -1,9 +1,11 @@
-@import "utils/variables";
+@import "utils/variables/variables";
+@import "utils/functions/functions";
 @import "base/global";
 @import "layout/header";
-@import "components/colors-component";
+@import "utils/colors/background-colors";
+@import "utils/colors/font-colors";
 @import "components/menu-component";
-@import "components/button";
+@import "utils/buttons/button";
 @import "components/links";
 @import "layout/content";
 @import "layout/footer";

@@ -1,0 +1,15 @@
+@function units($value, $size_type) {
+  @if $size_type == "px" {
+    $value: $value + px;
+  } 
+  @else if  $size_type == "rem" {
+    $value: $value + rem;
+  }
+  @else if  $size_type == "em" {
+    $value: $value + em;
+  }
+  @else if  $size_type == "percent" {
+    $value: $value + #{'%'};
+  }
+  @return $value;
+}

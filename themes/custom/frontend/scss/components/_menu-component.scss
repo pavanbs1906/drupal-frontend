@@ -1,14 +1,19 @@
 .menus {
-  width: 80%;
+  width: units(80, percent);
+  &.display-type-2 {
+    display: block;
+    margin-left: 30px;
+    padding: 10px;
+  }
   .menu-list {
-    margin: 0;
-    padding: 0;
+    margin: units(0, px);
+    padding: units(0, px);
     list-style-type: none;
     .items {
-      width: 150px;
-      height: 50px;
-      padding-top: 17px;
-      margin-right: 10px;
+      width: units(150, px);
+      height: units(50, px);
+      padding-top: units(17, px);
+      margin-right: units(10, px);
       text-align: center;
       &:hover {
         text-decoration: underline;

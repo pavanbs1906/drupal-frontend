@@ -20,12 +20,12 @@ html {
 
 ::-moz-selection {
   background: blue;
-  color: white;
+  color: #FFFFFF;
 }
 
 ::selection {
   background: blue;
-  color: white;
+  color: #FFFFFF;
 }
 
 p {
@@ -118,9 +118,14 @@ p {
 .menus {
   width: 80%;
 }
+.menus.display-type-2 {
+  display: block;
+  margin-left: 30px;
+  padding: 10px;
+}
 .menus .menu-list {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   list-style-type: none;
 }
 .menus .menu-list .items {
@@ -144,19 +149,19 @@ p {
 }
 
 .btn-primary {
-  color: white;
+  color: #FFFFFF;
   background-color: #0074d9;
   border-radius: 3px;
 }
 
 .btn-warning {
-  color: white;
+  color: #FFFFFF;
   background-color: #ff4136;
   border-radius: 3px;
 }
 
 .btn-success {
-  color: white;
+  color: #FFFFFF;
   background-color: #5cb85c;
   border-radius: 3px;
 }
@@ -169,8 +174,7 @@ p {
   border: 2px solid red;
   width: 20%;
 }
-
-.display-type-2 {
+.content .left-content {
   display: block;
   margin-left: 30px;
   padding: 10px;
@@ -189,7 +193,7 @@ p {
   padding: 10px;
 }
 .content .right-col .content-top {
-  margin-top: -25px;
+  margin-top: -units(25, px);
 }
 .content .right-col .row .col {
   width: 25%;

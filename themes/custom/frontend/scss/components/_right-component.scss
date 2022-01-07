@@ -1,28 +1,23 @@
-.display-type-2 {
-  display: block;
-  margin-left: 30px;
-  padding: 10px;
-}
 .content {
   .right-col {
-    border: 2px solid red;
-    width: 80%;
+    border: units(2, px) solid red;
+    width: units(80, percent);
     .title {
-      margin-left: 15px;
-      padding: 10px;
+      margin-left: units(15, px);
+      padding: units(10, px);
     }
     .description {
-      margin-left: 15px;
-      padding: 10px;
+      margin-left: units(15, px);
+      padding: units(10, px);
     }
     .content-top {
-      margin-top: -25px;
+      margin-top: -units(25, px);
     }
     .row {
       .col {
-        width: 25%;
-        padding: 20px;
-        margin: 3px;
+        width: units(25, percent);
+        padding: units(20, px);
+        margin: units(3, px);
       }
     }
   }

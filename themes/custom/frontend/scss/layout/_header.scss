@@ -3,10 +3,10 @@
   flex-direction: row;
 }
 .header {
-  margin: 20px;
-  padding: 12px;
+  margin: units(20, px);
+  padding: units(12, px);
   .logo {
-    width: 50%;
-    padding-left: 15px;
+    width: units(50, percent);
+    padding-left: units(15, px);
   }
 }

@@ -1,6 +1,13 @@
 .content {
   .left-col {
     border: 2px solid red;
-    width: 20%;
+    width: units(20, percent);
+  }
+  .left-content {
+    display: block;
+    margin-left: units(30, px);
+    padding: units(10, px);
   }
 }
+
+

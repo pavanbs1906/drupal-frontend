@@ -4,9 +4,9 @@
     float: left;
     color: #f2f2f2;
     background-color: #333;
-    padding: 14px 16px;
+    padding: units(14, px) units(16, px);
     text-decoration: none;
-    font-size: 17px;
+    font-size: units(17, px);
     &:hover {
       background-color: #ddd;
       color: black;
